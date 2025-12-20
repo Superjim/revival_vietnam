@@ -1,0 +1,9 @@
+"lang" 
+{ 
+	"Language" "English" 
+	"Tokens" 
+	{ 
+		"weapon_tokarev"		"TOKAREV TT-30"
+		"weapon_tokarev_desc"	"An 8-shot pistol chambered in 7.62x25"
+	}               
+}

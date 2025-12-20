@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"models\weapons\nam\ithaca37\d_37"
+	"$bumpmap" 						"models\weapons\nam\ithaca37\n_37"
+    "$color"						"[1.21 1.21 1.21]"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongboost"                   "1.2"
+	"$phongtint"                    "[.67 .9 1]"
+	"$phongexponent"                "55"
+	"$phongfresnelranges"           "[1 2 3]"
+
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"                   "[0.06 0.06 0.06]"
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"models\weapons\nam\ithaca37\d_duckbill"
+	"$bumpmap" 						"models\weapons\nam\ithaca37\n_duckbill"
+    "$color"						"[1.41 1.41 1.41]"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongboost"                   "1.2"
+	"$phongtint"                    "[.67 .9 1]"
+	"$phongexponent"                "55"
+	"$phongfresnelranges"           "[1 3 4]"
+
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"                   "[0.08 0.08 0.08]"
+}

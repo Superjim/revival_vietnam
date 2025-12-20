@@ -1,0 +1,79 @@
+"theater"
+{	
+	"player_templates"
+	{
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//
+		"template_german_general"
+		{
+			"print_name"			"#class_german_officer"
+			"response_rules_key"	"german01"
+			"squad_leader"			"1"
+			"assassination_target"	"1"
+			
+			"icon"						"officer_germans"
+			
+			"models"
+			{
+				"player"				"models/characters/german/player_german_07.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger.mdl"
+				"helmet"				"models/characters/german/german_cap.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+					"pouches"				"1"
+					"helmet"				"1"
+				}	
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_binoculars_german"
+				"weapon"				"weapon_k98bayonet"
+				"weapon"				"weapon_luger"
+				"weapon"				"weapon_splintering"
+				"gear"					"german_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_binoculars_german"
+				"weapon"				"weapon_k98bayonet"
+				"weapon"				"weapon_luger"
+				"weapon"				"weapon_splintering"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_luger" 		"-5"
+					"weapon_splintering"		"-5"
+				}
+			}
+		}
+		
+		
+		
+		
+		//////////////////////////////////////////////////////////////////////////////////////
+		////			ELITE COOP UNITS
+		//////////////////////////////////////////////////////////////////////////////////////
+		
+		
+		
+		
+			
+		
+	}
+}

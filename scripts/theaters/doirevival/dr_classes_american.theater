@@ -1,0 +1,965 @@
+"theater"
+{
+	"player_templates"
+	{		
+		"template_american_officer"
+		{
+			"print_name"				"#class_american_officer"
+			"print_attribute"			"#class_officer_attribute"
+			"print_description"			"#class_officer_description"
+			"response_rules_key"		"american01"
+			"squad_leader"				"1"
+			"icon"						"officer_americans"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_thompson_m1a1"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_smoke"
+				"gear"					"american_light_kit"
+				"weapon"				"weapon_binoculars_american"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_m1paratrooper"
+
+				//"?has_m1para_access"
+				//{
+				//	"weapon"			"weapon_m1paratrooper"
+				//}
+				
+				"weapon"				"weapon_thompson_m1a1"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"				
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_binoculars_american"
+				
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_optics"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+				"weapon_upgrade"		"barrel_greased_bolt"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m1garand"		"3"
+					"weapon_m1carbine"		"4"
+					"weapon_m1paratrooper"	"4"
+					"weapon_thompson_m1a1"	"5"
+					"weapon_m1911"			"2"
+					"weapon_sw1917"			"1"					
+					"weapon_smoke" 			"1"
+					"weapon_mk2" 			"3"
+				}
+				
+				"weapon_upgrade"
+				{
+					"default_optics"		"1"
+					"default_sling"			"1"
+					"default_bayonet"		"2"
+					"magazine_clips_sw1917"	"1"
+					"barrel_greased_bolt"			"2"
+				}
+
+				"gear"
+				{
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
+				}
+			}
+		}
+		
+		"template_american_communications"
+		{
+			"print_name"				"#class_american_communications"
+			"print_attribute"			"#class_communications_attribute"
+			"print_description"			"#class_communications_description"
+			"response_rules_key"		"american01"
+			"icon"						"communications"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_03.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_smoke"
+				"gear"					"american_light_kit"
+				"gear"					"gear_radio"
+			}
+			"locked_gear_slots"			"backpack"
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_m1carbine"	
+				
+				"?has_m1para_access"
+				{
+					"weapon"			"weapon_m1paratrooper"
+				}
+				
+				"weapon"				"weapon_m1911"			
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_molotov"
+				"weapon"				"weapon_binoculars_american"		
+				"weapon_upgrade"		"magazine_stripper_clips"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"barrel_greased_bolt"
+				"gear"					"gear_radio"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m1garand"				"3"
+					"weapon_m1carbine"				"4"
+					"weapon_m1paratrooper"			"4"
+					"weapon_m3greasegun"			"5"
+					"weapon_m1911"					"3"				
+					"weapon_smoke"					"1"
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"1"
+				}
+				
+				"weapon_upgrade"
+				{
+					"magazine_stripper_clips"		"1"
+					"barrel_greased_bolt"			"2"
+					"default_sling"					"1"
+					"default_bayonet"				"2"
+				}
+
+				"gear"
+				{
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
+					"gear_radio"			"0"
+				}
+			}
+		}
+
+		"template_american_rifleman"
+		{
+			"print_name"				"#class_american_rifleman"
+			"print_attribute"			"#class_rifleman_attribute"
+			"print_description"			"#class_rifleman_description"
+			"response_rules_key"		"american01"
+			"icon"						"rifleman"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_03.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m1garand"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_mk2"
+				"gear"					"american_light_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"					
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_binoculars_american"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_stripper_clips"
+				"weapon_upgrade"		"barrel_greased_bolt"
+                "weapon_upgrade"        "underbarrel_rifle_grenade_springfield"
+				"gear"					"gear_radio"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_springfield"			"1"
+					"weapon_m1garand"				"4"
+					"weapon_m1carbine"				"5"
+					"weapon_m1911"					"5"
+					"weapon_sw1917"					"4"					
+					"weapon_smoke"					"2"
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"2"
+				}
+				
+				"weapon_upgrade"
+				{
+					"default_sling"							"1"
+					"default_bayonet"						"1"
+					"magazine_stripper_clips"				"1"
+					"barrel_greased_bolt"					"1"
+					"underbarrel_rifle_grenade_springfield"	"4"
+					"magazine_clips_sw1917"					"1"
+				}
+
+				"gear"
+				{
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
+					"gear_radio"			"3"
+				}
+			}
+
+			"player_settings_mods"
+			{
+				"stamina"
+				{
+					"StaminaMaxByWeight"
+					{
+						"30"					"140"
+						"300"					"60"
+					}
+
+					"stamina_regain"				"2.75"
+					"stamina_regain_crouched"		"5.50"
+					"stamina_regain_prone"			"8.00"
+				}
+			}
+		}
+		
+		"template_american_assault"
+		{
+			"print_name"				"#class_american_assault"
+			"print_attribute"			"#class_assault_attribute"
+			"print_description"			"#class_assault_description"
+			"response_rules_key"		"american01"
+			"icon"						"assault"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_01.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m3greasegun"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_mk2"
+				"gear"					"american_light_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m3greasegun"
+				"weapon"				"weapon_thompson_m1a1"
+				"weapon"				"weapon_thompson_m1928a1"
+				"weapon"				"weapon_coachgun"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"					
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"underbarrel_foregrip"
+				"weapon_upgrade"		"magazine_extended_thompson_30rd"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+				"gear"					"gear_radio"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m3greasegun" 	"4"
+					"weapon_thompson_m1a1" 	"6"
+					"weapon_thompson_m1928a1" 	"6"
+					"weapon_m1911"			"4"
+					"weapon_sw1917"			"3"					
+					"weapon_smoke"			"2"
+					"weapon_mk2"			"3"
+				}
+				"weapon_upgrade"
+				{
+					"default_sling"			"1"
+					"magazine_clips_sw1917"	"1"
+					"underbarrel_foregrip" "3"
+					"magazine_extended_thompson_30rd"	"1"
+					"default_bayonet" "2"
+				}
+				"gear"
+				{
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
+					"gear_radio"			"3"
+				}
+			}
+
+			"player_settings_mods"
+			{
+				"speed"
+				{
+					"frac_side_move"			"0.75"
+					"frac_side_step"			"0.75"
+					"speed_crouch_run"			"120"
+					"speed_run"					"185"
+					"speed_sprint"				"300"
+				}
+			}
+		}
+		
+		"template_american_support"
+		{
+			"print_name"				"#class_american_support"
+			"print_attribute"			"#class_support_attribute"
+			"print_description"			"#class_support_description"
+			"response_rules_key"		"american01"
+			"icon"						"support"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_04.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_bar"
+				"weapon"				"weapon_smoke"
+				"gear"					"american_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_bar"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_molotov"
+				"weapon"				"weapon_binoculars_american"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+				
+				"plantable"				"ammo_pouch_allied"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_bar" 					"5"
+					"weapon_m1911" 					"4"
+					"weapon_smoke" 					"1"
+					"weapon_mk2" 					"3"
+					"weapon_binoculars_american" 	"1"
+				}
+				"weapon_upgrade"
+				{
+					"default_sling"					"1"
+					"underbarrel_bipod"				"2"
+					"magazine_clips_sw1917"			"1"
+				}
+				"gear"
+				{
+					"american_light_kit"			"2"
+					"american_heavy_kit"			"4"
+				}
+			}		
+		}
+		
+		"template_american_machinegunner"
+		{
+			"print_name"				"#class_american_machinegunner"
+			"print_attribute"			"#class_machinegunner_attribute"
+			"print_description"			"#class_machinegunner_description"
+			"response_rules_key"		"american01"
+			"icon"						"machinegunner"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_05.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_smoke"
+				"gear"					"american_light_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon"                "weapon_binoculars_american"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+			}
+			"cost_modifiers"
+			{				
+				"weapon"
+				{
+					"weapon_m1919"					"6"
+					"weapon_m1911"					"3"
+					"weapon_smoke"					"2"
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"2"
+				}				
+				
+				"weapon_upgrade"
+				{
+					"magazine_clips_sw1917"			"1"
+				}
+				
+				"gear"
+				{
+					"american_light_kit"			"1"
+					"american_heavy_kit"			"3"
+				}
+			}
+						
+			"player_settings_mods"
+			{				
+				"suppression"
+				{
+					"suppression_resistance"		"0.35"
+					"suppression_recovery_rate"		"40"
+				}
+			}
+		}
+		
+		"template_american_sniper"
+		{
+			"print_name"				"#class_american_sniper"
+			"print_attribute"			"#class_sniper_attribute"
+			"print_description"			"#class_sniper_description"
+			"response_rules_key"		"american01"
+			"icon"						"sniper"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_02.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_springfield"
+				"weapon_upgrade"		"optic_scope_7x"
+				"weapon"				"weapon_m1911"
+				"gear"					"american_light_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"				
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_binoculars_american"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"optic_scope_7x"
+				"weapon_upgrade"		"optic_scope_4x"
+				"weapon_upgrade"		"barrel_greased_bolt"	
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_springfield"			"1"
+					"weapon_m1garand"				"5"
+					"weapon_m1911"					"3"
+					"weapon_sw1917"					"2"					
+					"weapon_smoke"					"2"
+					"weapon_binoculars_american"	"1"
+				}
+				"weapon_upgrade"
+				{
+					"default_sling"					"1"
+					"optic_scope_7x"				"3"
+					"optic_scope_4x"				"4"
+					"barrel_greased_bolt"			"3"
+				}
+				"gear"
+				{
+					"american_light_kit"			"2"
+					"american_heavy_kit"			"5"
+				}
+			}
+
+			"player_settings_mods"
+			{
+				"focus"
+				{
+					"FocusTimeStamina"
+					{
+						"0"					"3.0"
+						"100"				"7.0"
+					}
+				}
+			}
+		}
+		
+		"template_american_engineer"
+		{
+			"print_name"				"#class_american_engineer"
+			"print_attribute"			"#class_engineer_attribute"
+			"print_description"			"#class_engineer_description"
+			"response_rules_key"		"american01"
+			"icon"						"engineer"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_06.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}				
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_springfield"
+				"weapon_upgrade"		"magazine_stripper_clips"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_tnt"
+				"gear"					"american_light_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_m3greasegun"
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_m1paratrooper"
+				"weapon"				"weapon_coachgun"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"				
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_tnt"
+				"weapon"				"weapon_bazooka"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_stripper_clips"
+				"weapon_upgrade"		"barrel_greased_bolt"	
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"magazine_bazooka_wp"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_springfield"		"1"
+					"weapon_m3greasegun"		"5"
+					"weapon_m1carbine"			"4"
+					"weapon_m1paratrooper"		"4"
+					"weapon_m1911"				"2"
+					"weapon_sw1917"				"2"					
+					"weapon_mk2"				"1"
+					"weapon_tnt"				"4"
+					"weapon_bazooka"			"6"
+				}
+				"weapon_upgrade"
+				{
+					"default_sling"				"1"
+					"magazine_stripper_clips"	"1"
+					"default_bayonet"			"2"
+					"magazine_bazooka_wp"		"1"
+					"barrel_greased_bolt"			"2"
+				}
+				"gear"
+				{
+					"american_light_kit"		"2"
+					"american_heavy_kit"		"5"
+				}
+			}
+			"player_settings_mods"
+			{
+				"weight"
+				{
+					"min_weight"				"60"
+					"max_weight"				"720"
+				}
+			}
+		}
+		
+		"template_american_flamethrower"
+		{
+			"print_name"				"#class_american_flamethrower"
+			"print_attribute"			"#class_flamethrower_attribute"
+			"print_description"			"#class_flamethrower_description"
+			"response_rules_key"		"american01"
+			"icon"						"flamethrower"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_06.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}				
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_flamethrower_american"
+				"weapon"				"weapon_m1911"
+				"gear"					"gear_fuel_tank_american"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_flamethrower_american"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"	
+                "weapon"				"weapon_smoke"				
+				"weapon_upgrade"		"magazine_clips_sw1917"
+				"gear"					"gear_fuel_tank_american"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_flamethrower_american"	"6"
+					"weapon_m1911"					"4"
+					"weapon_sw1917"					"3"		
+                    "weapon_smoke"				    "1"					
+				}
+				
+				"weapon_upgrade"
+				{
+					"magazine_clips_sw1917"			"1"
+				}
+				
+				"gear"
+				{
+					"american_light_kit"			"2"
+					"american_heavy_kit"			"5"
+				}
+			}
+			
+			"player_settings_mods"
+			{
+				"speed"
+				{
+					"frac_side_move"			"0.75"
+					"frac_side_step"			"0.75"
+					"speed_crouch_run"			"110"
+					"speed_run"					"170"
+					"speed_sprint"				"230"
+				}
+			}
+		}
+		// ==============================
+		//	CO-OP CLASSES
+		// ==============================
+		"template_american_engineer_coop"
+		{
+			"print_name"				"#class_american_engineer"
+			"response_rules_key"		"american01"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_04.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_us.mdl"
+				"helmet"				"models/characters/american/american_helmet.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+					"helmet"				"1"
+				}
+			}
+			
+			"icon"						"engineer"
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_etool_us"
+				"weapon"				"weapon_m1carbine"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_bazooka"
+				"gear"					"american_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_m3greasegun"
+				"weapon"				"weapon_flamethrower_american"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_bazooka"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_springfield"
+				"weapon_upgrade"		"underbarrel_rifle_grenade_springfield"
+				"gear"					"gear_fuel_tank_american"
+				"gear"					"gear_radio"
+				"weapon_upgrade"		"magazine_bazooka_wp"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_bazooka"		"-3"
+					"weapon_m1carbine"		"-3"
+				}
+				"gear"
+				{
+				}
+			}
+		}
+		//Has a pistol
+		"template_american_machinegunner_coop"
+		{
+			"print_name"				"#class_american_machinegunner"
+			"print_attribute"			"#class_machinegunner_attribute"
+			"print_description"			"#class_machinegunner_description"
+			"response_rules_key"		"american01"
+			"icon"						"machinegunner"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_05.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_m1911"
+				"gear"					"american_light_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon"                "weapon_binoculars_american"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+			}
+			"cost_modifiers"
+			{				
+				"weapon_upgrade"
+				{
+					"magazine_clips_sw1917"			"1"
+				}
+				
+				"gear"
+				{
+					"american_light_kit"			"1"
+					"american_heavy_kit"			"3"
+				}
+			}
+		}
+		"template_american_general"
+		{
+			"print_name"				"#class_american_officer"
+			"print_attribute"			"#class_officer_attribute"
+			"print_description"			"#class_officer_description"
+			"response_rules_key"		"american01"
+			"squad_leader"				"1"
+			"icon"						"officer_americans"
+			
+			"assassination_target"	"1"
+			
+			"models"
+			{
+				"player"				"models/characters/american/player_american_07.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_us.mdl"
+				"viewmodel_gloves"		"models/weapons/v_hands_us_glove.mdl"
+				"helmet"				"models/characters/american/american_helmet.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+					"helmet"				"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m1911"
+				"gear"					"american_light_kit"
+				"weapon"				"weapon_binoculars_american"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_thompson_m1a1"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_sw1917"				
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_binoculars_american"				
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_optics"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+			}
+		}
+		////////////////////////////////////////////////////
+		// Ranger
+		////////////////////////////////////////////////////
+		
+		"template_american_elite_ranger"
+		{
+			"print_name"				"#unit_american_rangers"
+			"response_rules_key"		"american01"
+			
+			"elite_bot_only"			"1"
+			
+			"icon"						"assault"
+			"unit"						"unit_american_ranger"
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_thompson_m1a1"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_bazooka"
+				"gear"					"american_light_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_thompson_m1a1"
+				"weapon"				"weapon_bazooka"
+				"weapon_upgrade"		"default_sling"
+			}
+		}
+			
+		////////////////////////////////////////////////////
+		// Airborne
+		////////////////////////////////////////////////////
+		
+		"template_american_elite_airborne"
+		{
+			"print_name"				"#unit_american_101stairborne"
+			"response_rules_key"		"american01"
+			
+			"elite_bot_only"			"1"
+			
+			"icon"						"rifleman"
+			"unit"						"unit_american_101stairborne"
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_m1carbine"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"cosmetic_m1carbine_para"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
+				"gear"					"american_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"cosmetic_m1carbine_para"
+				"weapon_upgrade"		"default_sling"
+			}
+		}
+		
+		////////////////////////////////////////////////////
+		// Airborne Sniper
+		////////////////////////////////////////////////////
+		
+		"template_american_elite_airborne_2"
+		{
+			"print_name"				"#unit_american_82ndairborne"
+			"response_rules_key"		"american01"
+			
+			"elite_bot_only"			"1"
+			
+			"icon"						"rifleman"
+			"unit"						"unit_american_82ndairborne"
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_garand_bayonet"
+				"weapon"				"weapon_m1garand"
+				"weapon_upgrade"		"optic_scope_4x"
+				"weapon_upgrade"		"default_sling"
+				"weapon"				"weapon_m1911"
+				"gear"					"american_heavy_kit"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_m1911"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"optic_scope_4x"
+			}
+		}
+	}
+}
