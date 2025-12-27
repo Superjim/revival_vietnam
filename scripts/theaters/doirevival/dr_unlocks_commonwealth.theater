@@ -269,9 +269,10 @@
 			"print_description" "#unit_commonwealth_highlanders_desc"
 
 			"team_access"	"commonwealth"
-			
+
+			"default"		"1"			
 			"ItemDefId"		"2006"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"scottish"
@@ -360,8 +361,9 @@
 			"print_description" "#unit_commonwealth_12thfrontier_desc"
 			"team_access"	"commonwealth"
 			
-			"ItemDefId"		"2013"
 			"default"		"1"
+			"ItemDefId"		"2013"
+			
 			"Character"
 			{
 				"voice"			"indian"
@@ -459,8 +461,9 @@
 			"print_description" "#unit_commonwealth_argyll_desc"
 			"team_access"	"commonwealth"
 			
-			"ItemDefId"		"2005"
 			"default"		"1"
+			"ItemDefId"		"2005"
+			
 			"Character"
 			{
 				"voice"					"canadian"
@@ -545,8 +548,9 @@
 			"print_description" "#unit_commonwealth_seaforth_desc"
 			"team_access"	"commonwealth"
 			
-			"ItemDefId"		"2010"
 			"default"		"1"
+			"ItemDefId"		"2010"
+			
 			"Character"
 			{
 				"voice"				"canadian"
@@ -630,8 +634,9 @@
 			"print_description" 		"#unit_commonwealth_princess_patricia_desc"
 			"team_access"				"commonwealth"
 			
-			"ItemDefId"					"2007"
 			"default"		"1"
+			"ItemDefId"					"2007"
+				
 			"Character"
 			{
 				"voice"					"canadian"
@@ -721,8 +726,9 @@
 			"print_description" "#unit_commonwealth_royal_hamilton_desc"
 			"team_access"		"commonwealth"
 			
-			"ItemDefId"		"2011"
 			"default"		"1"
+			"ItemDefId"		"2011"
+			
 			"Character"
 			{
 				"voice"					"canadian"
@@ -807,8 +813,9 @@
 			"print_description" "#unit_commonwealth_loyal_edmonton_desc"
 			"team_access"		"commonwealth"
 			
-			"ItemDefId"		"2016"
 			"default"		"1"
+			"ItemDefId"		"2016"
+			
 			"Character"
 			{
 				"voice"					"canadian"
@@ -894,8 +901,9 @@
 
 			"team_access"	"commonwealth"
 			
-			"ItemDefId"		"2012"	
 			"default"		"1"
+			"ItemDefId"		"2012"	
+				
 			"Character"
 			{
 				"voice"					"scottish"
@@ -978,8 +986,9 @@
 
 			"team_access"	"commonwealth"
 			
-			"ItemDefId"		"2009"	
 			"default"		"1"
+			"ItemDefId"		"2009"	
+			
 			"Character"
 			{
 				"voice"					"english"
@@ -1063,8 +1072,9 @@
 
 			"team_access"	"commonwealth"
 			
-			"ItemDefId"		"2008"
 			"default"		"1"
+			"ItemDefId"		"2008"
+			
 			"Character"
 			{
 				"voice"					"english"
@@ -1146,8 +1156,9 @@
 			"print_description" "#unit_commonwealth_17thaustralian_desc"
 			"team_access"		"commonwealth"
 			
-			"ItemDefId"		"2014"
 			"default"		"1"
+			"ItemDefId"		"2014"
+			
 			"Character"
 			{
 				"voice"					"australian"
@@ -1229,8 +1240,9 @@
 			"print_description" "#unit_commonwealth_blackwatch_desc"
 			"team_access"		"commonwealth"
 			
-			"ItemDefId"		"2015"
 			"default"		"1"
+			"ItemDefId"		"2015"
+			
 			"Character"
 			{
 				"voice"					"scottish"

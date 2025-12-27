@@ -374,7 +374,6 @@
 				"weapon"				"weapon_ppk"		
 				"weapon"				"weapon_p38"
 				"weapon"				"weapon_nebelhandgranate"
-				"weapon"				"weapon_molotov"
 				"weapon"				"weapon_splintering"			
 				"weapon"				"weapon_binoculars_german"
 				
@@ -594,7 +593,7 @@
 				"weapon"				"weapon_sprengbuchse"
 				"weapon"         		"weapon_panzerschreck"
 				"weapon"				"weapon_geballteladung"
-				"weapon"				"weapon_flamethrower_eintoss46_german"						
+				"weapon"				"weapon_molotov"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"barrel_greased_bolt"	
@@ -844,6 +843,7 @@
 				"weapon"				"weapon_nebelhandgranate"
 				"weapon"				"weapon_splintering"			
 				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"optic_scope_4x"
 			}
 			"cost_modifiers"

@@ -11,7 +11,7 @@
 			"team_access"	"americans"
 			
 			"ItemDefId"		"900"
-			
+							
 			"default"		"1"
 			
 			"Character"
@@ -87,8 +87,9 @@
 			"print_description" "#unit_american_rangers_desc"
 			"team_access"	"americans"
 			
+			"default"		"1"			
 			"ItemDefId"		"1003"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"american02"
@@ -160,9 +161,10 @@
 			"printname"		"#unit_american_101stairborne"
 			"print_description" "#unit_american_101stairborne_desc"
 			"team_access"	"americans"
-			
+
+			"default"		"1"			
 			"ItemDefId"		"1006"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"			"american02"
@@ -293,9 +295,10 @@
 			"printname"		"#unit_american_82ndairborne"
 			"print_description" "#unit_american_82ndairborne_desc"
 			"team_access"	"americans"
-			
+
+			"default"		"1"			
 			"ItemDefId"		"1010"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"			"american02"
@@ -432,9 +435,10 @@
 			"printname"				"#unit_american_1stinfantry"
 			"print_description" 	"#unit_american_1stinfantry_desc"
 			"team_access"			"americans"
-			
+
+			"default"		"1"			
 			"ItemDefId"		"1001"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"american01"
@@ -513,9 +517,10 @@
 			"printname"				"#unit_american_28thdivision"
 			"print_description" 	"#unit_american_28thdivision_desc"
 			"team_access"			"americans"
-			
+
+			"default"		"1"			
 			"ItemDefId"		"1009"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"					"american01"
@@ -587,9 +592,10 @@
 			"printname"		"#unit_american_92ndinfantry"
 			"print_description" "#unit_american_92ndinfantry_desc"
 			"team_access"	"americans"
-			
+
+			"default"		"1"			
 			"ItemDefId"		"1005"
-			"default"		"1"
+			
 			"Character"
 			{
 				"voice"			"africanamerican"
@@ -623,8 +629,9 @@
 			"print_description" "#unit_american_2ndrangers_desc"
 			"team_access"	"americans"
 			
-			"ItemDefId"		"1002"
 			"default"		"1"
+			"ItemDefId"		"1002"
+			
 			"Character"
 			{
 				"voice"					"american02"
@@ -702,8 +709,9 @@
 			"print_description" 	"#unit_american_3rddivision_desc"
 			"team_access"			"americans"
 			
-			"ItemDefId"		"1008"
 			"default"		"1"
+			"ItemDefId"		"1008"
+			
 			"Character"
 			{
 				"voice"					"american01"
@@ -783,8 +791,9 @@
 
 			"team_access"	"americans"
 			
-			"ItemDefId"		"1007"
 			"default"		"1"
+			"ItemDefId"		"1007"
+			
 			"Character"
 			{
 				"voice"					"american01"
@@ -861,8 +870,9 @@
 
 			"team_access"	"americans"
 			
-			"ItemDefId"		"1011"
 			"default"		"1"
+			"ItemDefId"		"1011"
+			
 			"Character"
 			{
 				"voice"			"africanamerican"

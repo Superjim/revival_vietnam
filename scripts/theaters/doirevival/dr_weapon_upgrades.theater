@@ -371,7 +371,7 @@
 				"weapon"				"weapon_m1carbine"
 				"weapon"				"weapon_m1paratrooper"
 				"weapon"				"weapon_sten_mk5"
-				"weapon"				"weapon_fg42"
+				//"weapon"				"weapon_fg42"
 				"weapon"				"weapon_ithaca"
 				"weapon"				"weapon_owen_mk2"
 			}
@@ -872,7 +872,7 @@
 		"magazine_extended_ppsh41"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"5"
+			"upgrade_cost"				"7"
 			"team_access"				"axis"
 			
 			"print_name"				"#magazine_extended_ppsh41"

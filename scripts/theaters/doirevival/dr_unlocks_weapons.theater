@@ -123,7 +123,7 @@
 			
 			"ItemDefId"		"20008"
 			
-			"visible"		"0"
+			"visible"		"1"
 			
 			"printname"				"#weapon_stiletto"
 			"print_description" 	"#weapon_stiletto_desc"
@@ -335,7 +335,7 @@
 			"print_name"				"#cosmetic_m1garand_veteran"
 			"print_desc"				"#cosmetic_m1garand_veteran_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 			"skin"						"1"
 						
 			"allowed_weapons"
@@ -351,7 +351,7 @@
 			"print_name"				"#cosmetic_springfield_veteran"
 			"print_desc"				"#cosmetic_springfield_veteran_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 			"skin"						"1"
 						
 			"allowed_weapons"
@@ -367,7 +367,7 @@
 			"print_name"				"#cosmetic_g43_veteran"
 			"print_desc"				"#cosmetic_g43_veteran_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 			"skin"						"1"
 						
 			"allowed_weapons"
@@ -383,7 +383,7 @@
 			"print_name"				"#cosmetic_k98_veteran"
 			"print_desc"				"#cosmetic_k98_veteran_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 			"skin"						"1"
 						
 			"allowed_weapons"
@@ -399,7 +399,7 @@
 			"print_name"				"#cosmetic_enfield_veteran"
 			"print_desc"				"#cosmetic_enfield_veteran_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 			"skin"						"1"
 						
 			"allowed_weapons"
@@ -418,7 +418,7 @@
 			"print_name"				"#clothwrap"
 			"print_desc"				"#clothwrap_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 						
 			"allowed_weapons"
 			{
@@ -459,7 +459,7 @@
 			"print_name"				"#clothwrap"
 			"print_desc"				"#clothwrap_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 						
 			"allowed_weapons"
 			{
@@ -500,7 +500,7 @@
 			"print_name"				"#clothwrap"
 			"print_desc"				"#clothwrap_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 						
 			"allowed_weapons"
 			{
@@ -541,7 +541,7 @@
 			"print_name"				"#clothwrap"
 			"print_desc"				"#clothwrap_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 						
 			"allowed_weapons"
 			{
@@ -582,7 +582,7 @@
 			"print_name"				"#clothwrap"
 			"print_desc"				"#clothwrap_desc"
 
-			"unlock"					"1"
+			"unlock"					"0"
 						
 			"allowed_weapons"
 			{
@@ -635,7 +635,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"ammo_clip"
 			{
@@ -718,7 +718,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"ammo_clip"
 			{
@@ -790,7 +790,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"fov"
 			{
@@ -867,7 +867,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"ammo_clip"
 			{
@@ -950,7 +950,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"fov"
 			{
@@ -1027,7 +1027,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"ammo_clip"
 			{
@@ -1099,7 +1099,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"ammo_clip"
 			{
@@ -1182,7 +1182,7 @@
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
-			"unlock"					"1"
+			"unlock"					"0"
 			
 			"ammo_clip"
 			{
