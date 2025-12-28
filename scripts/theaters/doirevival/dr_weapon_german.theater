@@ -2621,7 +2621,7 @@
 			"DetonateDamage"			"180"
 			"DetonatePenetrationRadius"	"80"
 			"DetonateDamageRadius"		"1100"
-			"FuseTime"					"3"
+			"FuseTime"					"5"
 			"RocketStartSpeed"			"600"
 			"Elasticity"				"0.2"
 			"Health"					"50"

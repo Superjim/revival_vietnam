@@ -584,7 +584,7 @@
 			"print_desc"				"#weapon_upgrade_sling_desc"
 			
 			"class_restricted"			"0"
-			"team_access"				"axis, american"
+			"team_access"				"axis, americans"
 			
 			"draw_speed"				"1.3"
 			"holster_speed"				"1.6"
