@@ -8,7 +8,7 @@
 		"unlock_weapon_brassknuckles"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20001"
 			
 			"printname"				"#weapon_etool"
@@ -24,7 +24,7 @@
 		"unlock_weapon_etool"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20002"
 			
 			"printname"				"#weapon_etool"
@@ -40,7 +40,7 @@
 		"unlock_weapon_etool_brit"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20003"
 			
 			"printname"				"#weapon_etool"
@@ -56,7 +56,7 @@
 		"unlock_weapon_etool_us"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20004"
 			
 			"printname"				"#weapon_etool"
@@ -72,7 +72,7 @@
 		"unlock_weapon_gravity_knife"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20005"
 			
 			"printname"				"#weapon_gravityknife"
@@ -88,7 +88,7 @@
 		"unlock_weapon_hatchet"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20006"
 			
 			"printname"				"#weapon_hatchet"
@@ -104,7 +104,7 @@
 		"unlock_weapon_fairbairn"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20007"
 			
 			"printname"				"#weapon_fairbairn"
@@ -120,10 +120,10 @@
 		"unlock_weapon_stiletto"
 		{
 			"type"			"weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"20008"
 			
-			"visible"		"1"
+			"visible"		"0"
 			
 			"printname"				"#weapon_stiletto"
 			"print_description" 	"#weapon_stiletto_desc"
@@ -134,14 +134,14 @@
 				"weapon"	"weapon_stiletto"
 			}
 		}
-				
+
 		// ========================================
 		// Veteran Skins
 		// ========================================
 		"unlock_cosmetic_m1garand_worn"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"printname"				"#cosmetic_m1garand_veteran"
 			"print_description" 	"#cosmetic_m1garand_veteran_desc"
 			
@@ -159,7 +159,7 @@
 		"unlock_cosmetic_springfield_worn"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"printname"				"#cosmetic_springfield_veteran"
 			"print_description" 	"#cosmetic_springfield_veteran_desc"
 			
@@ -177,7 +177,7 @@
 		"unlock_cosmetic_g43_worn"
 		{
 			"type"			"cosmetic_weapon"
-			
+			//"default"		"1"
 			"ItemDefId"		"11005"
 			
 			"printname"				"#cosmetic_g43_veteran"
@@ -195,7 +195,7 @@
 		"unlock_cosmetic_k98_veteran"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"11003"
 			
 			"printname"				"#cosmetic_k98_veteran"
@@ -213,7 +213,7 @@
 		"unlock_cosmetic_enfield_veteran"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"11001"
 			
 			"printname"				"#cosmetic_enfield_veteran"
@@ -234,7 +234,7 @@
 		"unlock_clothwrap_m1garand"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"10004"
 			
 			"printname"				"#clothwrap"
@@ -252,7 +252,7 @@
 		"unlock_clothwrap_springfield"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"10002"
 			
 			"printname"				"#clothwrap"
@@ -270,7 +270,7 @@
 		"unlock_clothwrap_g43"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"10005"
 			
 			"printname"				"#clothwrap"
@@ -288,7 +288,7 @@
 		"unlock_clothwrap_k98"
 		{
 			"type"			"cosmetic_weapon"
-			
+			"default"		"1"
 			"ItemDefId"		"10003"
 			
 			"printname"				"#clothwrap"
@@ -369,7 +369,7 @@
 
 			"unlock"					"0"
 			"skin"						"1"
-						
+			
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_g43"
@@ -417,9 +417,10 @@
 			"upgrade_slot"				"aesthetic"
 			"print_name"				"#clothwrap"
 			"print_desc"				"#clothwrap_desc"
-
+			"class_restricted"			"0"
 			"unlock"					"0"
-						
+			"default"					"1"
+			"team_access"				"americans"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m1garand"

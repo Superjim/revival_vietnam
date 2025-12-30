@@ -11,6 +11,7 @@
 "#base"	"dr_classes_german.theater"
 "#base"	"dr_firesupport.theater"
 "#base" "dr_plantables.theater"
+"#base" "dr_weapon_added.theater"
 "#base" "dr_weapon_american.theater"
 "#base" "dr_weapon_german.theater"
 "#base" "dr_weapon_commonwealth.theater"

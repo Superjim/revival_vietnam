@@ -14,7 +14,113 @@
 	"wave"			"weapons/universal/weapon_melee_06.wav" 	
     }	
 }
+// --------------------------
+// ROSS MK3
+// --------------------------
 
+
+"Weapon_ross.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/ross/ross_TP.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_ross.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        
+
+		}
+	}
+
+}
+
+"Weapon_ross.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")weapons/ross/ross_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "ins_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_ross.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"	"weapons/ross/ross_fp.wav"
+}
+
+
+
+// ROSS HANDLING
+
+"Weapon_ross.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"				"weapons/ross/handling/ross_boltback.wav" 
+}
+
+"Weapon_ross.Boltforward"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"				"weapons/ross/handling/ross_boltforward.wav" 
+}
 //================= DOUBLEBARREL ============================
 "Universal.GLBeginReload"
 {
@@ -89,6 +195,246 @@
 	"volume"			"0.2"
     "pitch"				"PITCH_NORM"
 	"wave"				"weapons/nam/toz_shotgun/handling/toz_empty.wav" 
+}
+
+// --------------------------
+// ITHACA37 Shotgun
+// --------------------------
+
+"Weapon_izh43.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/nam/ithaca37/m590_TP.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_ithaca.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_izh43.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "wave"	"weapons/nam/ithaca37/m590_FP.wav"
+}
+
+
+
+"Weapon_ithaca.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/nam/ithaca37/m590_TP.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_ithaca.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_ithaca.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			")weapons/nam/ithaca37/m590_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "ins_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_ithaca.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "wave"	"weapons/nam/ithaca37/m590_FP.wav"
+}
+
+"Weapon_ithaca.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/nam/ithaca37/m590_suppressed_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_ithaca.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_ithaca.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/nam/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_ithaca.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"weapons/nam/ithaca37/m590_suppressed_fp.wav"	
 }
 
 "weapon_tokarev.Single"

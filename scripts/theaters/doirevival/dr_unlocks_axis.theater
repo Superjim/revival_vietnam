@@ -129,10 +129,9 @@
 			"printname"		"#unit_german_1stinfantry"
 			"print_description" "#unit_german_1stinfantry_desc"
 			"team_access"	"axis"
-
-			"default"		"1"			
+			
 			"ItemDefId"		"3001"
-
+			"default"		"1"
 			"Character"
 			{
 				"voice"					"german01"
@@ -250,9 +249,8 @@
 			"print_description" "#unit_german_fallschirmjager_desc"
 			"team_access"	"axis"
 			
-			"default"		"1"
 			"ItemDefId"		"3007"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german01"
@@ -343,9 +341,8 @@
 			"print_description" "#unit_german_3rdfallschirmjager_desc"
 			"team_access"	"axis"
 			
-			"default"		"1"
 			"ItemDefId"		"3008"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german01"
@@ -440,9 +437,8 @@
 			"print_description" "#unit_german_3rdpanzer_desc"
 			"team_access"	"axis"
 			
-			"default"		"1"
 			"ItemDefId"		"3002"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german02"
@@ -567,10 +563,9 @@
 			"printname"		"#unit_german_15thpanzer"
 			"print_description" "#unit_german_15thpanzer_desc"
 			"team_access"	"axis"
-
-			"default"		"1"			
-			"ItemDefId"		"3003"
 			
+			"ItemDefId"		"3003"
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german02"
@@ -696,9 +691,8 @@
 			"print_description" "#unit_german_17thpanzer_desc"
 			"team_access"	"axis"
 			
-			"default"		"1"
 			"ItemDefId"		"3009"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"					"german02"
@@ -825,9 +819,8 @@
 			"print_description" "#unit_german_1stpanzer_desc"
 			"team_access"	"axis"
 			
-			"default"		"1"
 			"ItemDefId"		"3005"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german02"
@@ -953,9 +946,8 @@
 			"print_description" "#unit_german_352infanterie_desc"
 			"team_access"		"axis"
 			
-			"default"		"1"
 			"ItemDefId"			"3006"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german01"
@@ -1077,9 +1069,8 @@
 			"print_description" "#unit_german_29thpanzer_desc"
 			"team_access"		"axis"
 			
-			"default"		"1"
 			"ItemDefId"			"3004"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"			"german02"
@@ -1198,9 +1189,8 @@
 			"print_description" "#unit_german_272grenadier_desc"
 			"team_access"		"axis"
 			
-			"default"		"1"
 			"ItemDefId"			"3010"
-			
+			"default"		"1"
 			"Character"
 			{
 				"voice"					"german02"

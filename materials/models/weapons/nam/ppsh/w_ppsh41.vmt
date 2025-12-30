@@ -11,22 +11,16 @@
 	"$phongboost"                   "1.14"
 	"$phongfresnelranges"           "[1 2.5 7]"
 	
-		"$phongexponent"                "27"
-	"$phongfresnelranges"           "[1 1 1]"
-
-
-	
+	"$phongexponent"                "27"
 
 
 	"$envmap"                       "env_cubemap"
 	"$normalmapalphaenvmapmask"		"1"
 	"$envmaptint"                   "[0.078 0.078 0.078]"
 	
+	"$halflambert"			"1"
 	
-		"$halflambert"			"1"
-		
-		"$nocull" "1"
-		
+	"$nocull" "1"
 
 	"$rimlight"			"1"
 	"$rimlightexponent"			"100"

@@ -81,11 +81,13 @@
 			{
 				"fov_plr_focus"				"-10"
 			}
-			"team_access"				"axis, americans"
+			"team_access"				"axis, americans, commonwealth"
 
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_coachgun"
+				"weapon"				"weapon_sawedoff"
+				"weapon"				"weapon_winchester1912"
 			}
 		}
 		"base_standard"
@@ -371,9 +373,9 @@
 				"weapon"				"weapon_m1carbine"
 				"weapon"				"weapon_m1paratrooper"
 				"weapon"				"weapon_sten_mk5"
-				//"weapon"				"weapon_fg42"
 				"weapon"				"weapon_ithaca"
 				"weapon"				"weapon_owen_mk2"
+				"weapon"				"weapon_ross_ww1"
 			}
 			
 			"excluded_upgrades"
@@ -462,6 +464,15 @@
 						"weapon"		"weapon_owen_mk2"
 					}
 				}
+				"bayonet_ross_ww1"
+				{
+					"model"				"models/weapons/upgrades/a_ross_bayonet_ww1.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_ross_ww1"
+					}
+				}
 			}
 			"world_attachments"
 			{
@@ -525,6 +536,15 @@
 						"weapon"		"weapon_fg42"
 					}
 				}
+				"bayonet_ross_ww1"
+				{
+					"model"				"models/weapons/upgrades/w_ww1_ross_bayonet.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_ross_ww1"
+					}
+				}
 			}
 		}
 		
@@ -584,7 +604,7 @@
 			"print_desc"				"#weapon_upgrade_sling_desc"
 			
 			"class_restricted"			"0"
-			"team_access"				"axis, americans"
+			"team_access"				"axis, americans, commonwealth"
 			
 			"draw_speed"				"1.3"
 			"holster_speed"				"1.6"
@@ -593,8 +613,8 @@
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_coachgun" 
-			
+				"weapon"				"weapon_coachgun"
+				"weapon"				"weapon_winchester1912"
 			}
 		}
 		"ppsh41_sling"
@@ -628,6 +648,33 @@
 			
 			}
 		}
+		"default_cutstock"
+		{
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"underbarrel"
+			"print_name"				"#weapon_upgrade_cutstock"
+			"print_desc"				"#weapon_upgrade_cutstock_desc"
+			
+			"class_restricted"			"0"
+			"team_access"				"commonwealth"
+			
+			"sway"
+			{
+				"sway_radius_frac"			"0.4"
+				"sway_speed_frac"			"0.4"
+			}
+			
+			"excluded_upgrades"
+			{
+				"default_bayonet"		"default_bayonet"
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ross_ww1"
+			}
+			
+		}
 		"default_sling"
 		{
 			"import"					"base_stock"
@@ -644,10 +691,6 @@
 			"draw_speed_next_weapon"	"1.2"
 			"holster_speed_prev_weapon"	"1.3"
 			
-			//"excluded_upgrades"
-			//{
-			//	"default_bayonet"		"default_bayonet"
-			//}
 			
 			"allowed_weapons"
 			{
@@ -671,7 +714,8 @@
 				"weapon"				"weapon_m1paratrooper"
 				"weapon"				"weapon_fg42"
 				"weapon"				"weapon_owen"
-				"weapon"				"weapon_owen_mk2"					
+				"weapon"				"weapon_owen_mk2"
+				"weapon"				"weapon_ross_ww1"				
 				
 			}
 			"viewmodel_attachments"
@@ -847,11 +891,18 @@
 						"weapon"		"weapon_owen"
 					}
 				}
-
-
-		// ========================================
-		// Stocks
-		// ========================================						
+			
+				"sling_ross_ww1"
+				{
+					"model"				"models/weapons/upgrades/a_ross_sling_ww1.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_ross_ww1"
+						
+					}
+				}
+				
 				"stock_m3greasegun"
 				{
 					"model"				"models\weapons\upgrades\a_stock_extended_m3.mdl"
@@ -863,8 +914,6 @@
 				}
 			}
 		}
-
-	
 		
 		// ========================================
 		// Extended Magazines
@@ -1084,6 +1133,7 @@
 				"weapon"				"weapon_k98"
 				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_ross_ww1"
 			}
 
 			"viewmodel_attachments"
@@ -1100,6 +1150,15 @@
 					"weapons"
 					{
 						"weapon"		"weapon_enfield"
+					}
+				}
+				"clip_ross"
+				{
+					"model"				"models/weapons/upgrades/a_ross_clip_ww1.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_ross_ww1"
 					}
 				}
 				
@@ -1392,6 +1451,7 @@
 				"weapon"				"weapon_k98"
 				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_ross_ww1"
 			}
 			
 			"excluded_upgrades"
@@ -1484,6 +1544,20 @@
 						"weapon"			"weapon_enfield"
 					}
 				}
+				
+				"4xscope_ross_ww1"
+				{
+					"model"					"models/weapons/upgrades/a_optic_ross_4x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_ross_ww1"
+					}
+				}	
 			}
 			
 			"world_attachments"
@@ -1537,6 +1611,15 @@
 						"weapon"				"weapon_springfield"
 					}
 				}
+				"Scope_ross"
+				{
+					"model"					"models/weapons/upgrades/w_ww1_ross_optic_4x.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_ross_ww1"
+					}
+				}
 			}
 			"optics_fov_override"
 			{
@@ -1582,6 +1665,12 @@
 				"weapon_enfield"
 				{
 					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"62"
+				}
+				
+				"weapon_ross_ww1"
+				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
 				}

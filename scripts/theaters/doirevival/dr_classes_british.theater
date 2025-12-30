@@ -37,6 +37,7 @@
 				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_sten_mk5"
 				"weapon"				"weapon_thompson_m1928a1"
+				"weapon"				"weapon_m1carbine"
 				"?has_owen_access"
 				{
 					"weapon"				"weapon_owen"
@@ -50,13 +51,16 @@
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"default_optics"
 				"weapon_upgrade"		"magazine_stripper_clips"
+				"weapon_upgrade"		"magazine_extended_thompson_50rd"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_enfield"			"1"
+					"weapon_m1carbine"			"4"
 					"weapon_sten_mk5"			"4"
 					"weapon_owen"				"4"
 					"weapon_thompson_m1928a1"	"6"
@@ -71,6 +75,8 @@
 				{
 					"default_sling"						"1"
 					"magazine_extended_thompson_30rd"	"1"
+					"magazine_extended_thompson_50rd"	"7"
+					"default_optics"					"1"
 					"default_bayonet"					"2"
 					"underbarrel_foregrip"				"3"
 					"magazine_speedloader_webley"		"1"
@@ -197,6 +203,7 @@
 			"allowed_items"
 			{
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_ross_ww1"
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no79"
@@ -204,6 +211,7 @@
 				"weapon"				"weapon_no36"
 				"weapon"                "weapon_binoculars_british"
 				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"default_cutstock"
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"default_bayonet_spike"
 				"weapon_upgrade"		"magazine_stripper_clips"
@@ -298,10 +306,13 @@
 				}
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
+				"weapon"				"weapon_thompson_m1928a1"
+				"weapon"				"weapon_sawedoff"
 				"weapon"				"weapon_no79"
 				"weapon"				"weapon_no69"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"magazine_extended_thompson_50rd"
 				"weapon_upgrade"		"magazine_speedloader_webley"
 				"gear"					"gear_radio_commonwealth"
 				"weapon_upgrade"	    "barrel_silencer"
@@ -325,8 +336,8 @@
 					"default_sling"					"1"
 					"default_bayonet"				"2"
 					"magazine_speedloader_webley"	"1"
-					"magazine_extended_thompson_50rd" 	"6"
-					"magazine_extended_thompson_30rd" 	"3"
+					"magazine_extended_thompson_50rd" 	"7"
+					"magazine_extended_thompson_30rd" 	"1"
 					"underbarrel_foregrip" 				"2"
 					"barrel_silencer"				"4"
 				}
@@ -521,11 +532,15 @@
 			"allowed_items"
 			{
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_ross_ww1"
 				"weapon"				"weapon_welrod"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no79"
 				"weapon"				"weapon_binoculars_british"
 				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_cutstock"
+				"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_4x"
 				"weapon_upgrade"		"barrel_greased_bolt"	
@@ -543,9 +558,11 @@
 				"weapon_upgrade"
 				{
 					"default_sling"				"1"
+					"default_bayonet"			"1"
 					"optic_scope_7x"			"3"
 					"optic_scope_4x"			"4"
 					"barrel_greased_bolt"		"3"
+					"magazine_stripper_clips"	"1"
 				}
 				"gear"
 				{

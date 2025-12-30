@@ -11,12 +11,7 @@
 	"$phongboost"                   "1.14"
 	"$phongfresnelranges"           "[1 2.5 7]"
 	
-		"$phongexponent"                "27"
-	"$phongfresnelranges"           "[1 1 1]"
-
-
-	
-
+	"$phongexponent"                "27"
 
 	"$envmap"                       "env_cubemap"
 	"$normalmapalphaenvmapmask"		"1"

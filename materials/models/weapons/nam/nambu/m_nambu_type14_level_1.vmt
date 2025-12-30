@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\nam\nambu\M_Nambu_Type14_Level_1"
+   "$bumpmap" 			"models\weapons\nam\nambu\M_Nambu_Type14_Level_1_nm"
+
+ //SELFILLUM (subtle to avoid complete occlusion)
+	"$selfillum"					"1"
+	"$selfillumtint"				"[.75 .75 .75]"
+
+//PHONG
+	"$phong"                        "1"
+	"$phongtint"                    "[.67 .85 1]"
+	"$phongboost"                   "0.44"
+	"$phongexponent"				"43"
+	"$phongfresnelranges"           "[1 3 6]"
+
+//ENVMAP
+	"$envmap"						"env_cubemap"
+	"$envmapfresnel" 				".2"
+	"$basealphaenvmapmask" 			"1"
+	"$envmaptint"                   "[.015 .015 .015]"
+}
