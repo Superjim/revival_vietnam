@@ -59,8 +59,12 @@
 			"explosives"
 			{
 				"entity"					"grenade_geballteladung"
+				"GrenadeRollSpeed"			"135"
+				"GrenadeRollSpeedProne"		"100"
+				"GrenadeRollUpSpeed"		"70"
+				"GrenadeRollUpSpeedProne"	"40"
 				"GrenadeThrowSpeed"			"650"
-				"GrenadeThrowSpeedProne"	"400"
+				"GrenadeThrowSpeedProne"	"420"
 				"AllowPlant"				"1"
 			}
 			
@@ -684,7 +688,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"110"
 			"barrel_length"				"38"
-			"bolt_speed"                              "1.31"
+			"bolt_speed"                "1.57"
 			"draw_speed"				"0.85"
 			"holster_speed"				"0.85"
 			
@@ -814,8 +818,8 @@
 			
 			"ironsights"
 			{
-				"in_time"				"0.39"
-				"out_time"				"0.34"
+				"in_time"				"0.31"
+				"out_time"				"0.28"
 			}	
 			
 			"team_access"					"commonwealth"
