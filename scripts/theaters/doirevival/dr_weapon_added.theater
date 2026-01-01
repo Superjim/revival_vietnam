@@ -654,7 +654,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"9x19mm_smg"	
+				"ammo_type"					"9x19mm_ppsh"	
 				"clip_max"					"6"
 				"magsize_override"			"35"
 				"clip_default"				"1"
