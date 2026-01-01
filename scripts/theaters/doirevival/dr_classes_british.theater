@@ -550,6 +550,7 @@
 				"weapon"
 				{
 					"weapon_enfield" 			"1"
+					"weapon_ross_ww1"			"3"
 					"weapon_welrod" 			"1"
 					"weapon_browninghp" 		"3"
 					"weapon_no79" 				"2"

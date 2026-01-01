@@ -650,7 +650,7 @@
 		}
 		"default_cutstock"
 		{
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"underbarrel"
 			"print_name"				"#weapon_upgrade_cutstock"
 			"print_desc"				"#weapon_upgrade_cutstock_desc"
@@ -658,10 +658,14 @@
 			"class_restricted"			"0"
 			"team_access"				"commonwealth"
 			
+			"weapon_weight"				"100"
+
 			"sway"
 			{
-				"sway_radius_frac"			"0.4"
-				"sway_speed_frac"			"0.4"
+				"sway_radius_ironsight_frac"	"0.30"
+				"sway_amount_focus_frac"		"0.30"
+				"sway_speed_ironsight_frac"		"0.30"
+				"sway_speed_focus_frac"			"0.20"
 			}
 			
 			"excluded_upgrades"

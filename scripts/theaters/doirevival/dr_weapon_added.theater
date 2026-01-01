@@ -783,19 +783,13 @@
 				"maxrange"					"20000"
 				"singleReload"				"1"
 			}
-			
+
 			"sway"
 			{
-				"sway_radius_ironsight_frac"		"0.65" //0.4
-
-				"sway_radius_crouch_frac"		"0.60" //NA
-				"sway_radius_prone_frac"		"0.50" //NA
-
-				"sway_amount_focus_frac"		"0.80" //0.4
-
-				"sway_speed_ironsight_frac"		"0.80" //0.4
-				"sway_speed_focus_frac"			"0.75" //0.25
-
+				"sway_radius_ironsight_frac"	"0.40"
+				"sway_amount_focus_frac"		"0.40"
+				"sway_speed_ironsight_frac"		"0.40"
+				"sway_speed_focus_frac"			"0.25"
 			}
 			
 			"ammo_clip"
