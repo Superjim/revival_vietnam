@@ -1,0 +1,163 @@
+"#base" "dr_player.theater"
+"#base" "dr_gear.theater"
+
+"#base" "dr_base_ammo.theater"
+"#base" "dr_ammo.theater"
+"#base" "dr_base_weapon.theater"
+"#base" "dr_base_explosives.theater"
+
+"#base"	"rifles_classes_american.theater"
+"#base"	"rifles_classes_british.theater"
+"#base"	"rifles_classes_german.theater"
+"#base"	"dr_firesupport.theater"
+"#base" "dr_plantables.theater"
+"#base" "rifles_weapon_added.theater"
+"#base" "rifles_weapon_american.theater"
+"#base" "dr_weapon_german.theater"
+"#base" "rifles_weapon_commonwealth.theater"
+"#base" "rifles_weapon_upgrades.theater"
+
+"#base"	"dr_unlocks_americans.theater"
+"#base"	"dr_unlocks_axis.theater"
+"#base"	"dr_unlocks_commonwealth.theater"
+"#base"	"dr_unlocks_weapons.theater"
+
+"theater"
+{
+	"core"
+	{
+		"precache"
+		{
+			// default audio
+			"sounds"			"scripts/ins_sounds_weapons.txt"		
+			
+			// HQ SUPPORT
+			"sounds"			"scripts/audio/doi_sounds_hq_american_support.txt"		
+			"sounds"			"scripts/audio/doi_sounds_hq_commonwealth_support.txt"	
+			"sounds"			"scripts/audio/doi_sounds_hq_german_support.txt"				
+			
+			// Co-op
+			"sounds"			"scripts/audio/doi_sounds_voice_coop.txt"	
+
+			// Units		
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_canadian.txt"		
+			"sounds"         	"scripts/audio/doi_sounds_unit_responses_canadian.txt"		
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_canadian.txt"
+			
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_africanamerican.txt"		
+			"sounds"        	"scripts/audio/doi_sounds_unit_responses_africanamerican.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_africanamerican.txt"	
+			
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_indian.txt"		
+			"sounds"       		"scripts/audio/doi_sounds_unit_responses_indian.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_indian.txt"	
+			
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_german_01.txt"		
+			"sounds"        	"scripts/audio/doi_sounds_unit_responses_german_01.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_german_01.txt"	
+			
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_german_02.txt"		
+			"sounds"        	"scripts/audio/doi_sounds_unit_responses_german_02.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_german_02.txt"
+
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_scottish.txt"		
+			"sounds"        	"scripts/audio/doi_sounds_unit_responses_scottish.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_scottish.txt"		
+
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_english.txt"		
+			"sounds"         	"scripts/audio/doi_sounds_unit_responses_english.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_english.txt"		
+
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_american_01.txt"		
+			"sounds"        	"scripts/audio/doi_sounds_unit_responses_american_01.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_american_01.txt"	
+
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_american_02.txt"		
+			"sounds"         	"scripts/audio/doi_sounds_unit_responses_american_02.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_american_02.txt"			
+			
+			"sounds"			"scripts/audio/doi_sounds_unit_radial_australian.txt"		
+			"sounds"       		"scripts/audio/doi_sounds_unit_responses_australian.txt"	
+			"sounds"			"scripts/audio/doi_sounds_unit_hq_australian.txt"	
+			
+			// custom audio
+            "sounds"			"scripts/audio/doi_sounds_weapons.txt"
+            "sounds"			"scripts/audio/doi_sounds_world.txt"	
+            "sounds"			"scripts/audio/doi_sounds_cues.txt"							
+			"sounds"			"scripts/nam_sounds_weapons.txt"
+			
+			// localization
+			"localize"       	"resource/doi_%language%.txt"
+			"localize"       	"resource/doi_menu_%language%.txt"
+			
+			// custom particles
+			"particles"			"particles/doi_weapon_fx.pcf"
+		}
+	}
+	
+	"teams"
+	{		
+		"axis"
+		{
+			"name"					"#faction_german_army"
+			"logo"					"gameui/faction_german_army"
+
+			"music"
+			{
+				"round_victory"		"Music.WonRound_Germans"
+				"round_defeat"		"Music.LostRound_Germans"
+				"game_victory"		"Music.WonGame_Germans"
+				"game_defeat"		"Music.LostGame_Germans"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+				}
+			}
+		}
+		
+		"americans"
+		{
+			"name"					"#faction_americans"
+			"logo"					"gameui/faction_american_army"
+
+			"music"
+			{
+				"round_victory"		"Music.WonRound_Americans"
+				"round_defeat"		"Music.LostRound_Americans"
+				"game_victory"		"Music.WonGame_Americans"
+				"game_defeat"		"Music.LostGame_Americans"
+			}
+		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+				}
+			}
+		}
+		
+		"commonwealth"
+		{
+			"name"					"#faction_commonwealth"
+			"logo"					"gameui/faction_commonwealth_army"
+
+			"music"
+			{
+				"round_victory"		"Music.WonRound_Commonwealth"
+				"round_defeat"		"Music.LostRound_Commonwealth"
+				"game_victory"		"Music.WonGame_Commonwealth"
+				"game_defeat"		"Music.LostGame_Commonwealth"
+			}
+		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+				}
+			}
+		}
+	}
+}
