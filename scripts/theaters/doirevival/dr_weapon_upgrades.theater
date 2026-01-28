@@ -925,7 +925,7 @@
 		"magazine_extended_ppsh41"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"6"
+			"upgrade_cost"				"4"
 			"team_access"				"axis"
 			
 			"print_name"				"#magazine_extended_ppsh41"

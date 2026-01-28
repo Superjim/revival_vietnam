@@ -304,6 +304,7 @@
 				{
 					"weapon"				"weapon_owen"
 				}
+				
 				"weapon"				"weapon_webley"
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_thompson_m1928a1"
@@ -336,9 +337,9 @@
 					"default_sling"					"1"
 					"default_bayonet"				"2"
 					"magazine_speedloader_webley"	"1"
-					"magazine_extended_thompson_50rd" 	"7"
+					"magazine_extended_thompson_50rd" 	"5"
 					"magazine_extended_thompson_30rd" 	"1"
-					"underbarrel_foregrip" 				"2"
+					"underbarrel_foregrip" 				"1"
 					"barrel_silencer"				"4"
 				}
 
