@@ -192,7 +192,7 @@
 				"weapon"				"weapon_stielhandgranate"
 				"weapon"				"weapon_splintering"
 				"weapon"				"weapon_binoculars_german"
-				"weapon"				"weapon_molotov"
+				"weapon"				"weapon_molotov_restricted"
 				"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_sling"
