@@ -552,7 +552,7 @@
 				}
 			}
 		}
-		
+
 		"template_american_engineer"
 		{
 			"print_name"				"#class_american_engineer"
@@ -574,65 +574,71 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_garand_bayonet"
 				"weapon"				"weapon_springfield"
+				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"magazine_stripper_clips"
+				"weapon_upgrade"		"barrel_greased_bolt"
 				"weapon_upgrade"		"default_sling"
-				"weapon"				"weapon_tnt"
+				"weapon"				"weapon_smoke"
 				"gear"					"american_light_kit"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_springfield"
-				"weapon"				"weapon_m3greasegun"
-				"weapon"				"weapon_m1carbine"
-				"weapon"				"weapon_m1paratrooper"
-				"weapon"				"weapon_coachgun"
-				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"				
-				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_springfield"	
+				"weapon"				"weapon_ross_ww1"	
+				"weapon"				"weapon_welrod"	
 				"weapon"				"weapon_tnt"
-				"weapon"				"weapon_bazooka"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon_upgrade"		"default_cutstock"	
+				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_stripper_clips"
-				"weapon_upgrade"		"barrel_greased_bolt"	
-				"weapon_upgrade"		"default_bayonet"
-				"weapon_upgrade"		"magazine_bazooka_wp"
+				"weapon_upgrade"		"barrel_greased_bolt"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_springfield"		"1"
-					"weapon_m3greasegun"		"5"
-					"weapon_m1carbine"			"4"
-					"weapon_m1paratrooper"		"4"
-					"weapon_m1911"				"2"
-					"weapon_sw1917"				"2"					
-					"weapon_mk2"				"1"
-					"weapon_tnt"				"4"
-					"weapon_bazooka"			"6"
+					"weapon_springfield"			"1"
+					"weapon_m1911"					"25"
+					"weapon_sw1917"					"25"					
+					"weapon_smoke"					"2"
+					"weapon_mk2"					"3"
+					"weapon_binoculars_american"	"2"
+					"default_cutstock"				"2"
+					"weapon_tnt"					"12"
 				}
+				
 				"weapon_upgrade"
 				{
-					"default_sling"				"1"
-					"magazine_stripper_clips"	"1"
-					"default_bayonet"			"2"
-					"magazine_bazooka_wp"		"1"
-					"barrel_greased_bolt"			"2"
+					"default_sling"							"1"
+					"default_bayonet"						"1"
+					"magazine_stripper_clips"				"1"
+					"barrel_greased_bolt"					"1"
+					"magazine_clips_sw1917"					"1"
 				}
+
 				"gear"
 				{
-					"american_light_kit"		"2"
-					"american_heavy_kit"		"5"
+					"american_light_kit"	"2"
+					"american_heavy_kit"	"5"
 				}
 			}
+
 			"player_settings_mods"
 			{
-				"weight"
+				"stamina"
 				{
-					"min_weight"				"60"
-					"max_weight"				"720"
+					"StaminaMaxByWeight"
+					{
+						"30"					"140"
+						"300"					"60"
+					}
+
+					"stamina_regain"				"2.75"
+					"stamina_regain_crouched"		"5.50"
+					"stamina_regain_prone"			"8.00"
 				}
 			}
 		}
