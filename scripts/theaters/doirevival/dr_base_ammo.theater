@@ -497,9 +497,9 @@
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"100"					"6" 
-				"2000"					"5" 
-				"9000"					"4" 
+				"100"					"7" 
+				"2000"					"6" 
+				"9000"					"5" 
 			}
 			"PenetrationPower"
 			{

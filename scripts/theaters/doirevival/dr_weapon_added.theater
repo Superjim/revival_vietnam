@@ -478,7 +478,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"2.5 2.5 0.0"
+				"spread"				"2.1 2.1 0.0"
 				"FireModes"				"semi"
 				"maxrange"				"8000"
 				"bulletcount"			"1"
@@ -664,7 +664,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1.40 2.15"
-				"recoil_vertical_range"			"1.95 2.99"
+				"recoil_vertical_range"			"1.80 2.75"
 				"recoil_aim_punch"			"0.3 0.5"
 				"recoil_rest_rate"			"5"
 				"recoil_rest_delay"			"0.14"
