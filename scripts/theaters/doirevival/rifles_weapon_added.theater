@@ -535,7 +535,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"2.0 2.0 0.0"
+				"spread"				"2.3 2.3 0.0"
 				"FireModes"				"pump"
 				"maxrange"				"7000"
 				"singleReload"				"1"
